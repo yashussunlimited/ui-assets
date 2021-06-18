@@ -1,0 +1,289 @@
+.option-card{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 8px;
+margin-left: 20px;
+margin-right: 20px;
+border-bottom: 1px solid #0000003b;
+}
+.toggle-div{
+position: absolute;
+right: 55px;
+z-index: 1;
+width: 260px;
+top:60px;
+box-shadow: -6px 20px 11px rgba(0, 0, 0, 0.1);
+}
+.option-button{
+background: #00517cf5;
+color: #fff;
+outline: none;
+border: none;
+width: 40px;
+}
+.custom-view{
+display: flex; 
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin: auto;
+/*margin-top: 15px;*/
+
+}
+.msg-head{
+background: #0a5881;
+color: #fff;
+border-radius: 3px;
+width: 250px ;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.text-muted-1{
+color: #6b6f82c2 !important;
+}
+.sidenav {
+height: 100%;
+width: 0;
+position: absolute;
+z-index: 1;
+top: 60px;
+right: 109px;
+/*background-color: #fff;*/
+/*overflow-x: hidden;*/
+transition: 0.5s;
+/*padding-top: 60px;*/
+}
+
+
+
+/*demo-css*/
+
+.two-button {
+text-align: right;
+line-height: auto;
+}
+
+.la-clock-o:before {
+color: #ff5c73fc;
+font-size: 25px;
+}
+
+.la-check-circle-o:before {
+color: green;
+font-size: 25px;
+}
+
+.la-exclamation-triangle::before {
+font-size: 25px;
+}
+
+.bot-icon-style {
+font-size: 58px !important;
+color: GREEN;
+animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+}
+
+@keyframes blinker {
+from {
+opacity: 1;
+}
+
+to {
+opacity: 0;
+}
+}
+
+.toggle-check {
+height: 0;
+width: 0;
+visibility: hidden;
+}
+
+.toggle {
+cursor: pointer;
+text-indent: -9999px;
+width: 74px;
+height: 35px;
+background: grey;
+display: block;
+border-radius: 100px;
+position: relative;
+margin-right: 100px !Important;
+}
+
+.toggle:after {
+content: '';
+position: absolute;
+top: 5px;
+left: 5px;
+width: 25px;
+height: 25px;
+background: #fff;
+border-radius: 90px;
+transition: 0.3s;
+}
+
+input:checked+.toggle {
+background: #bada55;
+}
+
+input:checked+.toggle:after {
+left: calc(100% - 5px);
+transform: translateX(-100%);
+}
+
+.input-box-standard {
+outline: none;
+border: none;
+border-bottom: 1px solid #ab127f;
+width: 200px;
+padding: 3px;
+}
+
+/*.toggle-small {
+cursor: pointer;
+text-indent: -9999px;
+width: 45px;
+height: 25px;
+background: grey;
+display: block;
+border-radius: 100px;
+position: relative;
+}*/
+
+.customize-div {
+width: 100%;
+position: absolute;
+background-color: #f4f4f4;
+z-index: 100;
+box-shadow: 0px 4px 4px #c5c5c5;
+top: 7rem;
+}
+.option-style{
+font-size: 1rem;
+font-weight: 400;
+border-radius: 0.25rem;
+width: 30%;
+height: 28px;
+border: none;
+border-bottom: 3px solid #00517cf5;
+margin-top: -3px;
+padding-left: 3px;
+padding-right: 5px;
+outline: none; 
+}
+#custom-button{
+background-color: #0073b0;
+width: 37px;
+border-radius: 10px !important;
+}
+.custom-button-size{
+font-size: 30px;
+}
+
+
+.min-max{
+/* max-width: 633px; 
+min-width: 599px;
+margin-left: 20px;
+height: 350px; */
+max-width: 606px;
+min-width: 599px;
+margin-left: 20px;
+height: 350px;
+}
+.min-max-2{
+max-width: 645px;
+min-width: 599px;
+margin-left: 15px !important;
+height: 350px;
+
+}
+.min-widget-2{
+width: 320px !important;
+}
+.min-widget{
+width: 300px;
+}
+
+.vertical-compact-menu.menu-open .content, .vertical-compact-menu.menu-open .footer{
+margin-left: 70px;
+}
+.margin-left-10{
+margin-left: 20px ;
+}
+.nav.nav-tabs.nav-underline .nav-item a.nav-link{
+color:#0A5781;
+}
+label{
+/*keep this style there*/
+margin-bottom: 10px;
+}
+.fix{
+width: 645px !important;
+height: 370px !important;
+}
+
+
+.btn-close{
+border: none;
+background: none;
+}
+.c3-chart-arc text {
+fill: #000;
+font-size: 14px;
+text-anchor: middle !important;
+transform: translate(-20, -30) !important;
+display: none;
+
+}
+.table td{
+border: none !important;
+}
+.nav.nav-tabs.nav-justified {
+width: 35%;
+}
+
+.center-yu{
+display: flex;
+align-items: center;
+/* height: 334px; */
+justify-content: center;
+margin-top: 3rem;
+}
+.c3-legend-item-data3{
+margin-left: -10px;
+}
+
+.pos{
+/*position: absolute;*/
+/*left: 5.3rem;*/
+font-size: 18px;
+text-align: center;
+margin-left: 10px;
+
+}
+.pos-1{
+/*position: absolute;*/
+/*left:18.7rem;*/
+font-size: 18px;
+text-align: center;
+margin-left: 10px;
+
+
+
+
+}
+.pos-2{
+/*position: absolute;*/
+font-size: 18px;
+text-align: center;
+margin-left: 10px;
+margin-left: 10px;
+
+/*right: 5.9rem;*/
+}
